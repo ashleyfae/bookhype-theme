@@ -10,7 +10,6 @@
 get_header();
 
 if ( class_exists( '\\SpecialEditions\\Editions\\Database' ) && function_exists( '\\Book_Database\\get_book' ) ) : ?>
-    ?>
     <div id="special-editions-preview" class="container">
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
