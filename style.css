@@ -156,3 +156,10 @@ img {
     clear: both;
     overflow: hidden;
 }
+
+/*--------------------------------------------------------------
+>>> Special Editions
+--------------------------------------------------------------*/
+#special-edition-results .row > div {
+    margin-bottom: 30px;
+}
