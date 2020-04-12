@@ -164,6 +164,7 @@ img {
 /*--------------------------------------------------------------
 >>> Special Editions
 --------------------------------------------------------------*/
+#recentlyadded .row > div,
 #special-edition-results .row > div {
     margin-bottom: 30px;
 }
