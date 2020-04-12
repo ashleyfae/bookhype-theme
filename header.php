@@ -24,14 +24,10 @@
 
     <header id="masthead" class="site-header" role="banner">
         <div class="container">
-            <nav id="site-navigation" class="navbar navbar-expand-lg" role="navigation">
+            <nav id="site-navigation" class="navbar navbar-expand-lg navbar-dark" role="navigation">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand"><?php _e( 'Book Hype', 'bookhype' ); ?></a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'bookhype' ); ?>">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div id="main-navigation" class="collapse navbar-collapse">
+                <div id="main-navigation" class="navbar-collapse">
                     <?php
                     wp_nav_menu( array(
                         'theme_location' => 'main_menu',

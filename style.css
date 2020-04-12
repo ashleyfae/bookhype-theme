@@ -13,16 +13,17 @@
 >>> Header
 --------------------------------------------------------------*/
 #masthead {
-	background: #71189c;
-	color: white;
-	padding: 2em 0;
-	text-align: center;
+    background: #71189c;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
 }
 
 #masthead #site-navigation a {
     color: #ce95ea;
     transition: color 0.3s;
 }
+
 #masthead #site-navigation a.active,
 #masthead #site-navigation a:hover {
     color: white;
@@ -35,6 +36,7 @@
 #masthead h1 {
     margin: 1em 0;
 }
+
 #masthead h1 a {
     color: white;
 }
@@ -112,6 +114,7 @@ img {
     border-top-left-radius: .25rem;
     border-bottom-left-radius: .25rem;
 }
+
 .pagination > :last-child {
     border-top-right-radius: .25rem;
     border-bottom-right-radius: .25rem;
