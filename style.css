@@ -167,3 +167,16 @@ img {
 #special-edition-results .row > div {
     margin-bottom: 30px;
 }
+
+.special-edition-cover {
+    max-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .special-edition-cover {
+        float: none !important;
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
